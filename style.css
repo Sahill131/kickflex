@@ -1,0 +1,436 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    font-family: "Inter";
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.red {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    font-family: "poppins";
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+
+.red2 {
+
+    padding: 10px;
+    margin: 10px;
+    font-family: "poppins";
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 7%;
+}
+
+.red3 {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    font-family: "poppins";
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 7%;
+    color: white;
+    margin-left: 10%;
+
+}
+
+.shape {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.li:hover {}
+.ssss{
+    background-color: black;
+}
+.scroller{
+   
+    padding: 50px 20px;
+   
+    /* width: 310%; */
+    
+   
+}
+.scroller h1{
+    font-size: 300px;
+    white-space: nowrap;
+    color: red;
+    font-weight: normal;
+    
+    
+}
+.shadow {
+    filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.386));
+    width: 700px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: "poppins";
+    font-size: 90px;
+}
+
+.h {
+    font-weight: 200;
+    font-family: "poppins";
+    font-size: 70px;
+}
+
+.flex {
+    display: flex;
+    column-gap: 110px;
+}
+
+.p {
+    padding: 0 50px;
+}
+
+.title {
+    margin-left: 65px;
+}
+.h1{
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+.c {
+    margin-left: 55px;
+    font-size: 75px;
+    color: red;
+}
+
+.c2 {
+    margin-left: 25px;
+}
+
+P {
+    font-weight: 500;
+    font-size: 25px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sev {
+    width: 50px;
+}
+
+.sev2 {
+    width: 40px;
+    height: 40px;
+}
+
+.flex2 {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 20px;
+}
+
+.a {
+    margin-left: 25%;
+}
+
+.big {
+    font-size: 20px;
+    color: #333;
+}
+.border{
+    border-radius: 20px;
+    width: 22%;
+}
+
+.size {
+    width: 450px;
+}
+
+.gap999 {
+    column-gap: 20px;
+    margin-left: 3%;
+}
+
+.boxx {
+    width: 450px;
+}
+
+.boxxx {
+    width: 550px;
+    height: 550px;
+}
+
+.lh {
+    line-height: 1px;
+}
+
+.light {
+    color: rgba(0, 0, 0, 0.591);
+}
+
+.shop {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.lh2 {
+    line-height: 1px;
+    text-align: center;
+}
+
+.width {
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.pp {
+    margin-left: 10px;
+}
+
+.footer {
+    
+    padding: 100px;
+    cursor: pointer;
+    
+}
+
+.lhhh {
+    line-height: 1.2;
+}
+
+.bgsize {
+    width: 95%;
+    height: 400px;
+    margin-left: 3%;
+    /* position: relative; */
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.j {
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+    color: white;
+    font-size: 30px;
+    margin-left: 110px;
+}
+
+.bgbox {
+    position: relative;
+    width: 99%;
+    /* margin-left: 2%; */
+}
+
+.run {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.brands{
+    width: 40%;
+}
+.llll{
+    margin-left: 12%;
+}
+.section {
+    padding: 100px 50px;
+}
+.sectionn {
+    padding: 100px 90px;
+}
+
+.lhhhh {
+    line-height: 1.5;
+}
+
+.gap9990 {
+    gap: 15px;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    min-width: 250px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.design {
+    width: 50%;
+    height: 30%;
+}
+.design:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    border-radius: 70%;
+    filter: brightness(1.09);
+    cursor: pointer;
+
+}
+
+.design2 {
+    width: 50%;
+    height: 20%;
+}
+
+.flexx {
+    display: flex;
+}
+
+.wwww {
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.f {
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+.sport {
+    width: 30%;
+}
+
+.OFF {
+    position: relative;
+    width: 100%;
+}
+
+.off {
+    position: absolute;
+    top: 20px;
+    margin-left: 38%;
+    color: white;
+}
+.leeftt{
+     margin-left: 10%;
+}
+
+li:hover{
+    transform: scaleY(1.05);
+    transition: all 0.20s ease;
+    color: red;
+    cursor: pointer;
+}
+
+.red:hover{
+    transform: scale(1.06);
+    transition: all 0.40s ease;
+    color: white;
+    
+}
+
+.red3:hover{
+    transform: scaleX(1.10);
+    transition: all 0.20s ease;
+    color: white;
+    background-color: #333;
+
+}
+.red2:hover{
+    transform: scaleX(1.10);
+    transition: all 0.20s ease;
+    color: white;
+    background-color: #333;
+
+}
+.do{
+    color: red;
+}
+.ui{
+    margin-top: 100px;
+}
+.uii h1{
+    font-size: 200px;
+    white-space: nowrap;
+    position: absolute;
+    width: 100%;
+    margin-top: 140px;
+
+}
+.poi{
+    transform: rotate(-20deg);
+    position: relative;
+    
+    width:800px;
+   margin-left: 150px;
+   filter: drop-shadow(black);
+
+}
+/* ===== MOBILE (0–480px) ===== */
+/* MOBILE 0–480px */
+@media (max-width: 480px) {
+    nav ul { gap: 10px; font-size: 12px; flex-wrap: wrap; text-align: center; }
+    .flex, .flex2, .flexx { flex-direction: column; row-gap: 20px; align-items: center; }
+    h1 { font-size: 40px; text-align: center; }
+    .h { font-size: 28px; text-align: center; }
+    .shadow, .size, .boxx, .boxxx, .brands { width: 100%; height: auto; }
+    .bgsize { width: 100%; height: 200px; border-radius: 20px; }
+    .j { font-size: 18px; margin-left: 10px; top: 30%; }
+}
+
+/* TABLET 481–768px */
+@media (max-width: 768px) {
+    nav ul { gap: 15px; font-size: 14px; }
+    .flex, .flexx { flex-direction: column; row-gap: 30px; align-items: center; }
+    h1 { font-size: 55px; text-align: center; }
+    .h { font-size: 40px; text-align: center; }
+    .shadow, .size, .boxx, .boxxx, .brands { width: 90%; height: auto; }
+    .bgsize { width: 95%; height: 250px; }
+    .j { font-size: 22px; margin-left: 20px; }
+}
+
+/* SMALL LAPTOP 769–1024px */
+@media (max-width: 1024px) {
+    .flex { column-gap: 50px; }
+    h1 { font-size: 70px; }
+    .h { font-size: 50px; }
+    .shadow, .size { width: 80%; }
+    .sport { width: 32%; }
+}
+@media (max-width: 1024px) {
+    .boxxx { min-width: 300px; }
+    .sport { width: 32%; }
+}
+
+@media (max-width: 768px) {
+    .boxxx { min-width: 250px; }
+    .sport { width: 45%; }
+}
+
+@media (max-width: 480px) {
+    .boxxx { min-width: 85%; }
+    .sport { width: 100%; }
+}
