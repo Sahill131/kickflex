@@ -5,6 +5,7 @@
 body{
     background-color: #fff;
     overflow-x: hidden;
+    
 }
 
 ul {
@@ -76,6 +77,7 @@ nav {
     white-space: nowrap;
     color: red;
     font-weight: normal;
+    
     
     
 }
@@ -369,15 +371,19 @@ li:hover{
 .do{
     color: red;
 }
-.ui{
+/* .ui{
     margin-top: 100px;
-}
+} */
 .uii h1{
     font-size: 200px;
     white-space: nowrap;
     position: absolute;
     width: 100%;
     margin-top: 140px;
+    /* -webkit-text-stroke: 4px #111;
+    color: transparent; */
+    font-family: "Moon Dance";
+    font-weight: 400;
 
 }
 .poi{
@@ -388,6 +394,14 @@ li:hover{
    margin-left: 150px;
    filter: drop-shadow(black);
 
+}
+nav h2{
+    font-family: "Moon Dance";
+}
+.kf{
+    color: red;
+    font-family: "moon dance";
+    font-size: 30px;
 }
 /* ===== MOBILE (0–480px) ===== */
 /* MOBILE 0–480px */
