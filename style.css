@@ -403,6 +403,28 @@ nav h2{
     font-family: "moon dance";
     font-size: 30px;
 }
+
+.cen{
+    text-align: center;
+    font-size: 200px;
+}
+.lol{
+    /* font-family: "moon dance"; */
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    font-size: 120px;
+    
+}
+.sizee{
+    width: 320px;
+    transform: rotate(5deg);
+    border-radius: 10px;
+}
+.flexxx{
+    display: flex;
+}
+
 /* ===== MOBILE (0–480px) ===== */
 /* MOBILE 0–480px */
 @media (max-width: 480px) {
